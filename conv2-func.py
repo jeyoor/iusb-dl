@@ -38,9 +38,6 @@ valid_batches = valid_datagen.flow_from_directory(DATASET_PATH + '/valid',
                                                   shuffle=False,
                                                   batch_size=BATCH_SIZE)
 
-#Instantiate a Keras model object
-
-
 #Now make our first convolutional layer, 32 filters, 3x3, default stride and padding
 inputs = Input(shape = (IMAGE_SIZE[0],IMAGE_SIZE[1],3))
 layer1 = Conv2D(32, (3, 3), activation='relu')(inputs)
