@@ -84,6 +84,8 @@ model.save(WEIGHTS_FINAL)
 #MIT License
 #
 #Copyright (c) 2018 JK Jung
+#Copyright (c) 2019 James Wolfer
+#Copyright (c) 2019 Jeyan Burns-Oorjitham
 #
 #Permission is hereby granted, free of charge, to any person obtaining a copy
 #of this software and associated documentation files (the "Software"), to deal
